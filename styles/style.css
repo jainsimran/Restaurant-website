@@ -9,7 +9,7 @@ h4 {
   font-size: 19px;
     font-weight: bold;
     margin: 0;
-    color: #644a43;
+    color: #20396F;
 }
 
 h1 {
@@ -24,7 +24,7 @@ h1 {
 .nav-items {
   margin: 0;
   padding: 0;
-  background-color:#f0f2f6;
+  background-color: #7F87A5;
   position: fixed;
   width: 100vw;
   z-index: 1;
@@ -40,12 +40,12 @@ h1 {
 
 .nav-items li {
     display: inline-block;
-    padding: 10px;
+    padding: 20px;
 }
 
 .nav-items li > a {
   font-family: sans-serif;
-  color: #159002;
+  color: white;
   text-decoration: none;
   font-weight: lighter;
   font-size: 20px;
@@ -80,7 +80,7 @@ h1 {
 h1 {
   text-align: center;
   font-family: initial;
-  color: #0e0507;;
+  color: #050710;;
   font-size: 38px;
   text-shadow: 2px;
 }
@@ -111,19 +111,19 @@ li > .menu-item {
 }
 .detail , 
 .contact-wrapper p{
-  color: #159000;
+  color: #20396F;
   font-weight: lighter;
   font-size: 18px;
 
 }
 
 .price {
-  color: #644A43;
+  color: #20396F;
   padding-top: 10px;
 }
 h2 {
   font-family: sans-serif;
-  color: #644a43;
+  color: #20396F;
   font-size: 24px;
   font-weight: normal;
   margin: 10px 0;
