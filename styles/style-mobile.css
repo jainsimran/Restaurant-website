@@ -1,0 +1,27 @@
+@media screen and (max-width: 768px) {
+
+  #landing {
+    background-position-x: 36%;
+  }
+
+  #landing .content {
+    font-size: 28px;
+    line-height: 100px;
+    bottom: 0;
+    color: white;
+    margin: 0 2%;
+  }
+
+  .menu-wrapper,
+  #contact > article {
+    width: 90%;
+  }
+
+  .map-img {
+    width: 100%;
+  }
+
+  .contact-wrapper {
+    margin-left: 0;
+  }
+}

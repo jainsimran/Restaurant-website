@@ -1,0 +1,172 @@
+/*------------- Common Stylings ----------------*/
+body,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-size: 19px;
+    font-weight: bold;
+    margin: 0;
+    color: #644a43;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  color: #644A43;
+  font-size: 38px;
+}
+
+
+/*------------ nav section ------------------*/
+.nav-items {
+  margin: 0;
+  padding: 0;
+  background-color:#f0f2f6;
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+}
+
+.nav-items ul {
+    list-style-type: none;
+}
+
+.nav-items li:not(.float-left) {
+    float: right;
+}
+
+.nav-items li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.nav-items li > a {
+  font-family: sans-serif;
+  color: #159002;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+/*------------ landing section---------------*/
+
+
+#landing {
+  background-image: url("../img/Landing.jpeg");
+  background-size: cover;
+  height: 100vh;
+}
+
+#landing .content {
+  font-size: 50px;
+  color: #f0f2f6;
+  font-family: serif;
+  position: absolute;
+  top: 40%;
+  margin: 0 24%; 
+}
+
+
+
+/*------------ lunch and Dinner menu section---------------*/
+#lunch,
+#dinner {
+    padding-top: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: initial;
+  color: #0e0507;;
+  font-size: 38px;
+  text-shadow: 2px;
+}
+
+.menu-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  width: 80%;
+}
+
+ul {
+  list-style: none;
+}
+
+li > .menu-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.menu-item > .item {
+  font-size: 18px;
+  color: #159002;
+  margin-left: 30px;
+  display: inline-block;
+  font-family: fantasy;
+
+}
+.detail , 
+.contact-wrapper p{
+  color: #159000;
+  font-weight: lighter;
+  font-size: 18px;
+
+}
+
+.price {
+  color: #644A43;
+  padding-top: 10px;
+}
+h2 {
+  font-family: sans-serif;
+  color: #644a43;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 10px 0;
+}
+
+/*------------ contact section---------------*/
+
+#contact {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+#contact > article {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.contact-wrapper {
+  display: inline-block;
+  color: #159002;
+  font-family: initial;
+  font-size: 18px;
+  font-style: normal;
+  margin-left: 20px;
+}
+.map-img {
+  width: 350px;
+}
+
+/*------------ Back to top link styling --------------*/
+.back-to-top {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 20px;
+  background: #f0f2f6;;
+  text-align: center;
+}
+
+.back-to-top > img {
+  position: relative;
+  top: 7px;
+}
